@@ -1,0 +1,6 @@
+fire <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/f5ee5711/fire250x300.js"></script>
+fire <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/f5ee5711/fire728x90.js"></script>
+
+
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/b0120b94/728x90.js"></script>
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/4e139c2a/300x250.js"></script>
