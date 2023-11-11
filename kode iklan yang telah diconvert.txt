@@ -4,3 +4,7 @@ fire <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/
 
 <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/b0120b94/728x90.js"></script>
 <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/4e139c2a/300x250.js"></script>
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/7c4ef62a/160x300.js"></script>
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/bc893c1a/468x60.js"></script>
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/669b08ff/320x50.js"></script>
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/34373265/popunder.js"></script>
