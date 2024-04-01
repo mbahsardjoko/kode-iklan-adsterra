@@ -1,1 +1,5 @@
-bisa dihapus, cuman tes aja
+kira kira seperti ini:
+1. copy kode adsterra dan jadikan .js
+2. upload di github
+3. copy link di github untuk kemudian taruh di statically.io/convert
+4. tambahkan <script src="link hasil convert"></script>
