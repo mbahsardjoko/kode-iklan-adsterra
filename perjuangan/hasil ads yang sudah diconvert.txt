@@ -1,0 +1,8 @@
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/2a0f6de4/perjuangan/728x90.js"></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
