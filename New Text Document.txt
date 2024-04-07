@@ -1,5 +1,31 @@
 kira kira seperti ini:
-1. copy kode adsterra dan jadikan .js
-2. upload di github
-3. copy link di github untuk kemudian taruh di statically.io/convert
-4. tambahkan <script src="link hasil convert"></script>
+1. copy kode adsterra hilangkan <script> diawal dan </script> di akhir
+2. ganti <script> dengan document.writer('<scr' + 'ipt> .....
+3. kemudian jadikan .js
+4. upload di github
+5. copy link di github untuk kemudian taruh di statically.io/convert
+6. tambahkan <script src="link hasil convert"></script>
+
+contoh 
+<script type="text/javascript">
+	atOptions = {
+		'key' : '1582864e0ec4b7e4ece9446cd5ebb705',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//cockysnailleather.com/1582864e0ec4b7e4ece9446cd5ebb705/invoke.js"></script>
+
+menjadi
+
+
+	atOptions = {
+		'key' : '1582864e0ec4b7e4ece9446cd5ebb705',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//cockysnailleather.com/1582864e0ec4b7e4ece9446cd5ebb705/invoke.js"></scr' + 'ipt>');
