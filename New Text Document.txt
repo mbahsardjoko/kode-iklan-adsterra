@@ -1,12 +1,26 @@
 kira kira seperti ini:
 1. copy kode adsterra hilangkan <script> diawal dan </script> di akhir
 2. ganti <script> dengan document.writer('<scr' + 'ipt> .....
+3. ganti </script> dengan </scr'+'ipt>')
 3. kemudian jadikan .js
 4. upload di github
 5. copy link di github untuk kemudian taruh di statically.io/convert
 6. tambahkan <script src="link hasil convert"></script>
 
-<script type='text/javascript' src='//cockysnailleather.com/6f/92/68/6f9268f6f898aabd127efb72bbaad9dc.js'></script>
+document.writer('<scr' + 'ipt type='text/javascript' src='//cockysnailleather.com/6f/92/68/6f9268f6f898aabd127efb72bbaad9dc.js'></scr'+'ipt>')
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/291f9e21/popunderbaru.js"></script>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '6ff23c51b36eacf2a3f7abdacffe6620',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//cockysnailleather.com/6ff23c51b36eacf2a3f7abdacffe6620/invoke.js"></script>
 
 untuk tema default head
 tema one _ads ada di relate
+tema three-dark ada di tengah text setelah par 1 dan dibawah footer
