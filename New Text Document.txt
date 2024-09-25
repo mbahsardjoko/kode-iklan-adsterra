@@ -1,5 +1,5 @@
 kira kira seperti ini:
-1. copy kode adsterra, hilangkan <script>/<script type="text/javascript"> diawal dan </script> di tengah
+1. copy kode adsterra, hilangkan <script>/<script type="text/javascript"> diawal(atas) dan </script> di tengah
 2. ganti <script type="text/javascript"> dengan document.writer('<scr' + 'ipt type="text/javascript"
 3. ganti </script> paling akhir dengan </scr'+'ipt>')
 3. kemudian jadikan .js
