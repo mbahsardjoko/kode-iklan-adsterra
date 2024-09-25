@@ -1,2 +1,2 @@
-document.write('<scr'+'ipt async="async" data-cfasync="false" src="//amusinghump.com/1ca7b3b8019efd3723e02c3c65fd224e/invoke.js"></scr'+'ipt>')
-<div id="container-1ca7b3b8019efd3723e02c3c65fd224e"></div>
+document.write('<scr'+'ipt async="async" data-cfasync="false" src="//amusinghump.com/1ca7b3b8019efd3723e02c3c65fd224e/invoke.js"></scr'+'ipt>');
+<div id="container-1ca7b3b8019efd3723e02c3c65fd224e"></div>;
