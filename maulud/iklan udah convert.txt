@@ -1,5 +1,5 @@
 <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/d62d9482/maulud/728x90.js"></script>
-<script src=""></script>
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/15245788/maulud/native.js"></script>
 <script src=""></script>
 <script src=""></script>
 <script src=""></script>
