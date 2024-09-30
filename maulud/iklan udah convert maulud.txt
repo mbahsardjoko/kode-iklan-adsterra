@@ -1,0 +1,8 @@
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/d62d9482/maulud/728x90.js"></script>
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/e65e4146/maulud/native.js"></script> xx
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/e82e028e/maulud/popuppunyaperjuangan.js"></script> pasang di before post
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
