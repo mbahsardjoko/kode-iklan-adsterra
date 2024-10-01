@@ -7,10 +7,11 @@ window.addEventListener('load', function() {
         'params': {}
     };
 
-    var adScript = document.createElement('script');
-    adScript.src = '//amusinghump.com/050c23a6bfa5c8a035b6985850c07a8f/invoke.js';
-    adScript.type = 'text/javascript';
-    adScript.async = true;
-
-    document.body.appendChild(adScript);
+    setTimeout(function() {
+        var adScript = document.createElement('script');
+        adScript.src = '//amusinghump.com/050c23a6bfa5c8a035b6985850c07a8f/invoke.js';
+        adScript.type = 'text/javascript';
+        adScript.async = true;
+        document.body.appendChild(adScript);
+    }, 500);  // Adjust delay if needed
 });
