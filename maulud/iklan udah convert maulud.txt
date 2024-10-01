@@ -1,5 +1,5 @@
 <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/d62d9482/maulud/728x90.js"></script>
-<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/8c9c0ae8/maulud/native.js"></script> xx
+<script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/4980cfea/maulud/nativeteam.js"></script> xx
 <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/e82e028e/maulud/popuppunyaperjuangan.js"></script> pasang di before post
 <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/14438ea8/maulud/popunder.js"></script>
 <script src="https://cdn.statically.io/gh/mbahsardjoko/kode-iklan-adsterra/c22b8a22/maulud/sosbar.js"></script> psg juga di before post

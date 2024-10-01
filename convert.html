@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Script Iklan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+        }
+        .output {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Convert Script Iklan</h2>
+
+    <label for="oldScript">Masukkan Script Iklan Lama:</label>
+    <textarea id="oldScript" placeholder="Masukkan script iklan seperti &lt;script src='...'"></textarea>
+
+    <button onclick="convertScript()">Konversi</button>
+
+    <div class="output">
+        <h3>Script Iklan Dinamis:</h3>
+        <textarea id="newScript" readonly></textarea>
+    </div>
+
+    <script>
+        function convertScript() {
+            var oldScript = document.getElementById('oldScript').value;
+
+            // Ambil URL src dari script lama
+            var scriptSrc = oldScript.match(/src=['"](.*?)['"]/);
+
+            if (scriptSrc && scriptSrc[1]) {
+                // Buat script dinamis
+                var newScript = `
+var adScript = document.createElement('script');
+adScript.src = '${scriptSrc[1]}';
+adScript.type = 'text/javascript';
+adScript.async = true;
+document.body.appendChild(adScript);`;
+
+                document.getElementById('newScript').value = newScript;
+            } else {
+                alert("Script tidak valid. Pastikan script iklan berisi tag <script> dengan src.");
+            }
+        }
+    </script>
+
+</body>
+</html>
