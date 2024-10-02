@@ -102,14 +102,12 @@ document.body.appendChild(adScript);`;
             // Misalnya, ambil URL src dari script banner
             var scriptSrc = bannerScript.match(/src=['"](.*?)['"]/);
             if (scriptSrc && scriptSrc[1]) {
-                var newBannerScript = `atOptions = {
-    'key' : '050c23a6bfa5c8a035b6985850c07a8f',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-};
-document.write('<scr'+'ipt type="text/javascript" src="${scriptSrc[1]}"></scr'+'ipt>');`;
+                var newBannerScript = `
+var bannerAd = document.createElement('script');
+bannerAd.src = '${scriptSrc[1]}';
+bannerAd.type = 'text/javascript';
+bannerAd.async = true;
+document.body.appendChild(bannerAd);`;
                 document.getElementById('newBannerScript').value = newBannerScript;
             } else {
                 alert("Script banner tidak valid. Pastikan script iklan berisi tag <script> dengan src.");
@@ -122,6 +120,29 @@ document.write('<scr'+'ipt type="text/javascript" src="${scriptSrc[1]}"></scr'+'
             document.execCommand('copy');
             alert("Script banner telah disalin ke clipboard!");
         }
+
+        // Tambahkan script ini di dalam tag <script> yang sudah ada
+        window.addEventListener('load', function() {
+            // Mencari elemen script lama berdasarkan sumber (src)
+            var oldScript = document.querySelector("script[src='//amusinghump.com/050c23a6bfa5c8a035b6985850c07a8f/invoke.js']");
+
+            if (oldScript) {
+                // Hapus script lama
+                oldScript.remove();
+
+                // Definisikan ulang atOptions
+                atOptions = {
+                    'key': '050c23a6bfa5c8a035b6985850c07a8f',
+                    'format': 'iframe',
+                    'height': 90,
+                    'width': 728,
+                    'params': {}
+                };
+
+                // Gunakan document.write untuk memuat script baru
+                document.write('<scr' + 'ipt type="text/javascript" src="//amusinghump.com/050c23a6bfa5c8a035b6985850c07a8f/invoke.js"></scr' + 'ipt>');
+            }
+        });
     </script>
 </body>
 </html>
